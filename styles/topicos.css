@@ -55,6 +55,11 @@
 
     }
 
+    .topicos__link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+        }
+
 
     .topicos__lista{
 
@@ -62,5 +67,15 @@
 
     }
 
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .topicos{
+
+        padding: 3em 25vw;
+
+    }
 
 }
